@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import unittest
-import helloNumberzZ
+import helloNumberzZmult
 
 
 class TestHelloNumberzZ(unittest.TestCase):
@@ -12,6 +12,6 @@ class TestHelloNumberzZ(unittest.TestCase):
         int1 = 2
         int2 = 3
 
-        self.assertEqual(helloNumberzZ.mULt_numberz(int1, int2), 6)
+        self.assertEqual(helloNumberzZmult.mULt_numberz(int1, int2), 6)
 if __name__ == '__main__':
     unittest.main()
