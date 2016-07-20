@@ -8,12 +8,10 @@ class TestHelloNumberzZ(unittest.TestCase):
     def setUp(self):
         pass
 
-    def test_add_numberzZ(self):
+    def test_mULt_numberzZ(self):
         int1 = 2
         int2 = 3
 
-        self.assertEqual(helloNumberzZ.add_numberz(int1, int2), 5)
-
-
+        self.assertEqual(helloNumberzZ.mULt_numberz(int1, int2), 6)
 if __name__ == '__main__':
     unittest.main()
