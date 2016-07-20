@@ -13,6 +13,8 @@ class TestHelloNumberzZ(unittest.TestCase):
         int2 = 3
 
         self.assertEqual(helloNumberzZ.add_numberz(int1, int2), 5)
+        # lets fail dis!
+        self.assertEqual(helloNumberzZ.add_numberz(int1, int2), 6)
 
 if __name__ == '__main__':
     unittest.main()
