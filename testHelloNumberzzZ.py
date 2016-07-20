@@ -14,8 +14,8 @@ class TestHelloNumberzZ(unittest.TestCase):
 
         self.assertEqual(helloNumberzZ.add_numberz(int1, int2), 5)
         # lets fail dis!
-        self.assertEqual(helloNumberzZ.add_numberz(int1, int2), 6)
+        self.assertEqual(helloNumberzZ.add_numberz(int1, int2), 5)
         self.assertEqual(helloNumberzZ.add_numberz(int2, int1), 5)
-        self.assertEqual(helloNumberzZ.add_numberz(int1, int2), 8)
+        self.assertEqual(helloNumberzZ.add_numberz(int1, int2), 5)
 if __name__ == '__main__':
     unittest.main()
